@@ -1,0 +1,3 @@
+[submodule "query"]
+	path = query
+	url = git@github.com:The-IRS-EECS-498/query.git

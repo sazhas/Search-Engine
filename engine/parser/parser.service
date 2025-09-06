@@ -1,0 +1,15 @@
+[Unit]
+Description=Parser Service
+After=network.target
+
+[Service]
+ExecStart=%h/html_parser
+WorkingDirectory=%h
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+MemoryMax=48G
+
+[Install]
+WantedBy=default.target
