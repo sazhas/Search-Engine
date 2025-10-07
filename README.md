@@ -1,1 +1,2 @@
-Further readme's found within individual components.
+Further readme's within individual components
+Search engine written in CPP + WordNet dump
